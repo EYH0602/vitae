@@ -1,9 +1,9 @@
 \documentclass[margin,line]{res}
 
-
 \oddsidemargin -.5in
 \evensidemargin -.5in
 \textwidth=6.0in
+\textheight=9.5in
 \itemsep=0in
 \parsep=0in
 % if using pdflatex:
@@ -26,10 +26,11 @@
 \usepackage{array, booktabs, caption}
 \usepackage{makecell}
 \newcommand*{\nl}{\newline}
+\pagenumbering{gobble}
 
 \begin{document}
-
-\name{Yifeng He \vspace*{.1in}}
+\vspace*{-1in}
+\name{Yifeng (Ethan) He \vspace*{.1in}}
 
 \begin{resume}
 \section{\sc Contact Information}
@@ -46,9 +47,10 @@
 
 
 \section{\sc Research Interests}
-Content based recommender systems, image classification, object detection,
-collaborative filtering, programming languages for AI,
+Content based recommender systems, image classification,
+collaborative filtering, programming languages,
 music-related machine learning
+\vspace*{-.1in}
 
 \section{\sc Education}
 {\bf University of California, Davis}, Davis, California, USA. GPA: 3.887\\
@@ -58,10 +60,12 @@ music-related machine learning
 \item[] B.S., Computer Science, 2019 -- Present (Anticipated Graduation date: 06/2023)
 \item[] B.S., Applied Mathematics, 2019 -- Present (Anticipated Graduation date: 06/2023)
 \end{list1}
+\vspace*{-.1in}
 
 
-\section{\sc Honors and Awards} 
+\section{\sc Honors} 
 Dean's Honor List, 2019, 2020, 2021, 2022
+\vspace*{-.1in}
 
 %\vspace*{-2.5mm}
 %NSF Vertical Integration of Research and Education in Statistics and
@@ -80,6 +84,7 @@ Dean's Honor List, 2019, 2020, 2021, 2022
 
 \section{\sc Publications}
 \textbf{He, Y}, (in press), \textit{Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems}, PPRAI 2022.
+\vspace*{-.1in}
 
 \section{\sc Professional Experience}
 
@@ -112,6 +117,7 @@ Dean's Honor List, 2019, 2020, 2021, 2022
 
 \section{\sc Projects}
 {\bf Music Genre Classifier} \hfill {\bf 05/2022 -- 06/2022} \\
+\vspace{-.3cm}
 \begin{itemize}
 	\item Processed music samples into spectrogram by Short-time Fourier transform
 	\item Designed the appropriate model (CNN) to classify spectrograms into category
@@ -120,6 +126,7 @@ Dean's Honor List, 2019, 2020, 2021, 2022
 \vspace{-.3cm}
 
 {\bf ImageOrientation} \hfill {\bf 03/2022 -- 04/2022} \\
+\vspace{-.3cm}
 \begin{itemize}
 	\item Pre-processed image data by rotating them with random generated angles, and assign these angles as label
 	\item Designed the appropriate CNN for this regression task, test and improve the model
@@ -128,6 +135,7 @@ Dean's Honor List, 2019, 2020, 2021, 2022
 \vspace{-.3cm}
 
 {\bf Genshine Impact Wishes Analyzer} \hfill {\bf 08/2021 -- 09/2021} \\
+\vspace{-.3cm}
 \begin{itemize}
 	\item Designed fetching process of gacha data from MiHoYo and process into different categories.
 	\item Stored data into local database automatically, write into excel for data analysis by option.
@@ -136,32 +144,13 @@ Dean's Honor List, 2019, 2020, 2021, 2022
 \vspace{-.3cm}
 
 {\bf dcash-server} \hfill {\bf 05/2021 -- 07/2021} \\
+\vspace{-.3cm}
 \begin{itemize}
 	\item Created a multi-threaded API server using C++, allowing user to create account, deposit, and transfer,
 	\item Used MySQL to store and maintain user data.
 	\item Made API calls to the Stripe API server to handle credit card information.
 \end{itemize}
 \vspace{-.3cm}
-
-
-{\bf permualgebra} \hfill {\bf Dec. 2020 -- Jan. 2021} \\
-\begin{itemize}
-  \item Python package that allows calculation of algebraic permutations.
-\end{itemize}
-\vspace{-.3cm}
-
-{\bf Fishbone++} \\
-\begin{itemize}
-  \item a delightful oh-my-zsh theme, written in shell script.
-\end{itemize}
-
-
-
-\section{\sc Computer Skills} 
-\begin{list2}
-\item Languages: Python $\geq$ C $\approx$ C++ $\geq$ R $\geq$ Haskell $\geq$ js $\approx$ Rust $>$ Java $\approx$ SQL
-\end{list2}
-
 
 
 \end{resume}
