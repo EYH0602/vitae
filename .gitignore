@@ -1,2 +1,12 @@
-.vscode
-.DS_Store
+main.pdf
+*.aux
+*latexmk
+*.fls
+*.log
+*.out
+*.gz
+*.bbl
+*.blg
+*.xdv
+*.bcf
+*.xml
